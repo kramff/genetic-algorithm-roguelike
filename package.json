@@ -1,0 +1,14 @@
+{
+  "name": "roguelike",
+  "main": "index-host.html",
+  "description": "roguelike game",
+  "window": {
+    "width": 645,
+    "height": 730,
+    "title": "Roguelike Standalone App",
+    "toolbar": true
+  },
+  "chromium-args" : {
+    "--ignore-certificate-errors": true
+  }
+}

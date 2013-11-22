@@ -1,0 +1,1 @@
+rename app.zip app.nw

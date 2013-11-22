@@ -1,0 +1,68 @@
+Fireball
+lingering flames (large diamond)
++
+   x
+  xxx
+@xxxxx
+  xxx
+   x
+
+Waterblast
+pushes enemies (cone)
++
+   x
+  xx
+@xxx
+  xx
+   x
+
+Beam
+line attack
++
+
+@xxxxxxxxxxxxx
+
+Lightning
+chain lightning attack (3ish targets)
++
+      t
+@xx  xx
+  txxt
+
+Heal
++HP (animation: lots of squares 1-2-3-2-1 but all over the entity)
++
+
+@x
+
+Quake
+short line spell (3 range) but also breaks walls -> floors
++
+
+@xxx
+
+Ice
+medium square spell but also bridges empty -> floors
++
+ xxx
+@xxx
+ xxx
+
+Wall
+size 3 wall perpendicular to direction
++
+ x
+@x
+ x
+
+Web
+Traps enemies - invisible until triggered, or instantly
++
+
+@x
+
+Summon
+Adds an entity
++
+
+@x
