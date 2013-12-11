@@ -1,0 +1,15 @@
+Genetic Algorithm Roguelike
+
+Entities:
+-10 HP
+-Attacks do 1-4 Damage
+-Kills = +1 Max HP
+
+Actions:
+-Step (Up, down, left, right)
+-Attack (Up, down, left, right)
+
+Input:
+-Positions of other entities
+-Closest N entities?
+

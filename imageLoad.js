@@ -1,19 +1,10 @@
- 
-var effectImages = ["nothing", "circle1", "circle2", "circle3", "circle4", "circle5", "circle6", "lightning1", "lightning2", "lightning3",
-"lightningR1", "lightningR2", "lightningR3", "square1", "square2", "square3", "square4", "square5", "square6", "square7", "square8",
-"teleport1", "teleport2", "teleport3", "teleport4", "teleport5", "teleport6", "teleport7", "toggle", "triangle1", "triangle2", "triangle3", "triangle4", "triangle5", "triangle6",
-"slash1U", "slash2U", "slash3U", "slash4U", "slash5U", "slash1D", "slash2D", "slash3D", "slash4D", "slash5D", 
-"slash1L", "slash2L", "slash3L", "slash4L", "slash5L", "slash1R", "slash2R", "slash3R", "slash4R", "slash5R",
-"blood1", "blood2", "blood3", "blood4", "blood5", "blood6", "blood7", "blood8", "blood9",
-"heal1", "heal2", "heal3", "heal4", "heal5", "heal6", "heal7", "heal8", "heal9",
-"quake1", "quake2", "quake3", "quake4",
-"explode1", "explode2", "explode3", "explode4", "explode5", "explode6", "explode7"];
-var entityImages = ["player", "A", "B", "C", "D", "E"];
-var floorImages = ["blocks", "boxes", "bubbles", "checker", "concentric", "cornered", "delete", "detail", "elegant", "faded", "fine", "invalid", "neat", "nice", "null", "ornate", "rim", "simple", "solid"];
 
-
-var otherImages = ["appear", "ivy", "target", "web"];
-var wallImages = ["double", "full", "line", "pattern"];
+	
+var effectImages = ["die1", "die2", "die3", "die4", "die5", "die6", "levelup1", "levelup10", "levelup11", "levelup12", "levelup13", "levelup14", "levelup15", "levelup2", "levelup3", "levelup4", "levelup5", "levelup6", "levelup7", "levelup8", "levelup9", "slash1D", "slash1L", "slash1R", "slash1U", "slash2D", "slash2L", "slash2R", "slash2U", "slash3D", "slash3L", "slash3R", "slash3U", "slash4D", "slash4L", "slash4R", "slash4U", "slash5D", "slash5L", "slash5R", "slash5U"];
+var entityImages = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+var floorImages = ["floor1", "floor2", "floor3", "floor4"];
+var otherImages = [];
+var wallImages = ["wall1", "wall2", "wall3"];
 
 var imageSources = [];
 

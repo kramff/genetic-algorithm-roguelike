@@ -1,0 +1,18 @@
+
+Input
+
+Sight (Looks at (X, Y) in relation to entity, fires if is (Entity) (Wall))
+Pain (Fires when getting hit)
+LevelUp (Fires when leveling up)
+
+
+Process
+
+Cooldown (does not fire again in N turns)
+Fill up (only fires if triggered N times) "counter"
+Delay (Fires N turns later)
+
+
+Output
+
+Up, Down, Left, Right, W, A, S, D

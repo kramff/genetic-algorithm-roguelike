@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<title>Rogue Legacy</title>
+<title>Genetic Algorithm Roguelike</title>
 <html>
 <div id="game_canvas" >
 	<body onload='Init();' bgcolor='black'>
 		<canvas id="Canvas2D" width="630" height="630" onmousemove="MousePos(event)" onmouseover="hoverOn(event)" onmouseout="hoverOff(event)">
-			no canvas
+			no canvas?
 		</canvas>
 		<br/>
-		<img id="how" src="how_to_play.png"><img id="mute_button" src="sound_on.png" onmouseover="MuteButtonHoverOn()" onmouseout="MuteButtonHoverOff()" onmousedown="MuteToggle()">
 	</body>
 </div>
 
@@ -22,15 +21,9 @@ user-select: none;
 }
 </style>
 
-
-<script src="/socket.io/socket.io.js"></script>
-
-
-<script src="image_load.js"></script>
-<script src="client_script.js"></script>
+<script src="imageLoad.js"></script>
+<script src="ai.js"></script>
+<script src="script.js"></script>
+<script src="combat.js"></script>
 <script src="effects.js"></script>
-
-<script src="audio.js"></script>
-
-<script src="client.js"></script>
 </html>
